@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#ff7683"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Développez vos compétences numériques en trouvant la meilleure formation !">
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -19,22 +21,106 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>PassTech</title>
+    <!--
+    <link rel="icon" type="image/png" href="images/icons/icon-512x512.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PassTech">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-startup-image" href="images/splash.png">
+    <link rel="apple-touch-icon" type="image/png" href="images/icons/icon-57x57.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="images/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="images/icons/icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/icons/icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/icon-180x180.png">
+    -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics | must be in the head section -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117849931-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-117849931-1');
+    </script>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <canvas id="granim-canvas"></canvas>
+    <div class="hack">
+      <div class="main container">
+        <h1>PassTech</h1>
+        <h4><div class="negative">Survis dans la jungle : Trouve</div><div class="negative"> </div><div class="negative">la</div><div class="negative"> </div><div class="negative">formation</div><div class="negative"> </div><div class="negative">aux</div><div class="negative"> </div><div class="negative">métiers</div><div class="negative"> </div><div class="negative">du</div><div class="negative"> </div><div class="negative">numérique</div><div class="negative"> </div><div class="negative">qui</div><div class="negative"> </div><div class="negative">te</div><div class="negative"> </div><div
+        class="negative">correspond !</div></h4>
+        <p><strong>Notre démarche : </strong></p>
+        <ul>
+          <li>référencer l'ensemble des formations françaises au numérique</li>
+          <li>améliorer en continu l'algorithme de conseil en temps réel</li>
+          <li>s'appuyer sur des sources et témoignages vérifiés</li>
+        </ul>
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell step">
+              <h4>1. 🍋</h4>
+              <p>Discute avec PassTech.</p>
+              <p>Décris-nous <strong>tes motivations et tes critères de recherche.</strong></p>
+            </div>
+            <div class="mdc-layout-grid__cell step">
+              <h4>2. 🍊</h4>
+              <p>On t’envoie nos <strong>recommandations personnalisées</strong><br> sur les cursus qui te conviennent le mieux.</p>
+              <p>Et avec ça <strong>nos meilleurs conseils</strong> pour être armé au maximum avant <br> de commencer !</p>
+            </div>
+            <div class="mdc-layout-grid__cell step">
+              <h4>3. 🍉</h4>
+              <p>Inscris-toi dans le cursus qui te convient et <strong>réalise ton objectif !</strong></p>
+            </div>
+          </div>
+        </div>
+        <h2>QUI<div class="grey">.</div>SOMMES-NOUS<div class="grey">.</div>?<div class="grey">¬</div></h2>
+        <img class="avatar" src="images/avatars/nicolas-hovart.jpg" alt="Nicolas Hovart" />
+        <h3>Nicolas HOVART <em>Co-fondateur</em></h3>
+        <p><em><a href="https://github.com/NicolasHov/">GitHub</a> | <a href="https://twitter.com/kola_hov">Twitter</a> | <a href="https://www.linkedin.com/in/nicolas-hovart-ba20b834/">LinkedIn</a></em></p>
+        <p>" Je souhaite permettre au plus grand nombre d'accéder à l'information <strong>aussi vite et facilement que j'aurais souhaité le faire lorsque j'ai entamé ma propre reconversion vers le Web</strong>.</p>
+        <p>J'avais pourtant déjà quelques notions techniques mais <strong>j'étais noyé par les autres infos à prendre en compte</strong> : coût de la formation, temps disponible, pertinence des cours proposés, à distance où en groupe, etc.</p>
+        <p>Ainsi, s'est dessinée l'idée d'une <strong>matrice des formations adaptées aux besoins de chacun</strong>. "</p>
+        <img class="avatar" src="images/avatars/yvan-sraka.jpg" alt="Yvan Sraka" />
+        <h3>Yvan SRAKA <em>Co-fondateur</em></h3>
+        <p><em><a href="https://github.com/yvan-sraka">GitHub</a> | <a href="https://stackoverflow.com/story/yvan.sraka">StackOverflow</a> | <a href="https://twitter.com/yvansraka">Twitter</a> | <a href="https://www.linkedin.com/in/yvansraka/">LinkedIn</a> | <a href="https://yvan-sraka.github.io/">WebSite</a></em></p>
+        <p>" Parce que depuis la notion la plus basique en binaire jusqu'à la plus complexe comme dans les algorithmes de machine-learning, tout apprentissage se joue selon moi dans <strong>la capacité à le voir comme un jeu</strong>.</p>
+        <p>C'est ce que j'ai constaté lors du développement de mes premiers programmes puis dans mes études et encore aujourd'hui dans mes missions</p>
+        <p>Et trouver sa formation dans ce domaine demande bien souvent cette capacité à <strong>démystifier l'offre</strong>, de plus en plus importante. "</p>
+        <h2>NOTRE<div class="grey">.</div>MISSION<div class="grey">¬</div></h2>
+        <h3>Aider à obtenir la meilleure information</h3>
+        <p>La formation est le meilleur <strong>vecteur d'émancipation, de développement personnel et de progression professionnelle.</strong> Malheureusement beaucoup de particuliers se perdent dans la jungle des formations. Avoir la bonne information est donc un premier pas important !</p>
+        <h3>Apporter un éclairage sur le contenu des formations</h3>
+        <p>Certaines pédagogies ou certaines technologies ont le vent en poupe, pourtant elles ne conviennent pas à tout le monde ou à toutes les situations. De plus, elles peuvent évoluer d'une session à l'autre. <strong>Eviter les mauvaises surprises</strong> est bénéfique pour les formés comme pour les organismes de formation.</p>
+        <h3>Favoriser les échanges et les retours d'expérience sur les formations</h3>
+        <p>Souvent le meilleur moyen de se rassurer sur une formation est de rencontrer l'équipe et également <strong>de pouvoir échanger avec une personne qui la suit ou l'a suivi</strong>. C'est avant tout une expérience humaine où le ressenti compte autant que d'autres critères plus rationnels.</p>
+        <h2>CONTACT<div class="grey">¬</div></h2>
+        <p>Pour toutes les actus, c'est ici :</p>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="https://pari-scholae.us18.list-manage.com/subscribe/post?u=1018bb295047b79a85d791a1c&amp;id=6ec13a5026" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group mdc-text-field">
+                <label class="mdc-floating-label" for="mce-EMAIL">E-Mail </label>
+                <input type="email" value="" name="EMAIL" class="required email mdc-text-field__input" id="mce-EMAIL">
+                <div class="mdc-line-ripple"></div>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1018bb295047b79a85d791a1c_6ec13a5026" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button mdc-button mdc-button--outlined"></div>
+            </div>
+          </form>
+        </div>
+        <!--End mc_embed_signup-->
+        <p>Pour toute question, c'est là : <a href="mailto:contact@passtech.io">contact@passtech.io</a></p>
+        <p>Et OUI tu peux également nous suivre sur les réseaux sociaux ! : <a href="https://www.facebook.com/PariScholae/">Facebook</a> | <a href="https://medium.com/@kola.hov/le-ph%C3%A9nom%C3%A8ne-bootcamp-vu-de-lint%C3%A9rieur-470403a011a0">Medium</a> | <a href="https://www.linkedin.com/company/passtech">LinkedIn</a> | <a href="https://www.instagram.com/3615passtech">Instagram</a></p>
+      </div>
+    </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
