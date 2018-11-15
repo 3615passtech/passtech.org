@@ -341,7 +341,8 @@ p {
 }
 
 .mdc-layout-grid__cell {
-  padding: 20px;
+  text-align: center;
+  // padding: 20px;
   margin-bottom: 20px;
   @media (max-width: 767.98px) {
     background: black;
@@ -409,14 +410,7 @@ iframe {
   max-width: 100%;
 }
 
-// typeform
-.cui-embed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  z-index: 2;
-
-
+// button send to messenger
+.fb-send-to-messenger span {
+  width : 200px !important;
 }

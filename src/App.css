@@ -2563,7 +2563,7 @@ p {
   margin: 50px 0 20px; }
 
 .mdc-layout-grid__cell {
-  padding: 20px;
+  text-align: center;
   margin-bottom: 20px; }
   @media (max-width: 767.98px) {
     .mdc-layout-grid__cell {
@@ -2618,10 +2618,5 @@ p {
 iframe {
   max-width: 100%; }
 
-.cui-embed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  z-index: 2; }
+.fb-send-to-messenger span {
+  width: 200px !important; }
