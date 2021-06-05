@@ -1,0 +1,2 @@
+(this.webpackJsonp3615passtech=this.webpackJsonp3615passtech||[]).push([[0],[function(t,n,e){},function(t,n,e){"use strict";e.r(n);e(0);(function(t){t&&t instanceof Function&&e.e(2).then(e.bind(null,2)).then((function(n){var e=n.getCLS,s=n.getFID,c=n.getFCP,i=n.getLCP,o=n.getTTFB;e(t),s(t),c(t),i(t),o(t)}))})()}],[[1,1]]]);
+//# sourceMappingURL=main.5609718a.chunk.js.map
