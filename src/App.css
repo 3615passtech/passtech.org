@@ -2303,30 +2303,6 @@
   margin-right: 0;
   margin-left: auto; }
 
-@font-face {
-  font-family: "Airbnb Cereal App";
-  src: url("/fonts/AirbnbCereal/AirbnbCereal-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Airbnb Cereal App";
-  src: url("/fonts/AirbnbCereal/AirbnbCereal-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Airbnb Cereal App";
-  src: url("/fonts/AirbnbCereal/AirbnbCereal-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Airbnb Cereal App";
-  src: url("/fonts/AirbnbCereal/AirbnbCereal-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal; }
-
 @media (max-width: 575.98px) {
   html {
     font-size: 12px; } }
@@ -2351,7 +2327,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0;
-  font-family: "Airbnb Cereal App", "Roboto Mono", "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif; }
+  font-family: "Roboto Mono", "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif; }
 
 h1,
 h2,
@@ -2415,7 +2391,7 @@ a:hover {
 .hack h6,
 .hack strong {
   font-style: normal;
-  font-family: "Airbnb Cereal App", "Roboto Mono", "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif; }
+  font-family: "Roboto Mono", "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif; }
 
 .hack blockquote,
 .hack code,
@@ -2570,7 +2546,7 @@ p {
       background: black; } }
   @media (min-width: 768px) {
     .mdc-layout-grid__cell {
-      background: url("/images/background.jpg") black;
+      background: black;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
