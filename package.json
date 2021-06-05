@@ -1,17 +1,31 @@
 {
   "name": "3615passtech",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Développez vos compétences numériques en trouvant la meilleure formation !",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3615passtech/3615passtech.github.io.git"
+  },
+  "author": "Nicolas Hovart <hovart.nicolas@gmail.com>, Yvan Sraka <yvan@sraka.xyz>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/3615passtech/3615passtech.github.io/issues"
+  },
+  "homepage": "https://3615passtech.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "gh-pages": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
